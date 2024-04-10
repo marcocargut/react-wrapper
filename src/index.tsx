@@ -71,7 +71,7 @@ export const Wrapper = ({
   const [status, setStatus] = useState(Status.LOADING);
 
   useEffect(() => {
-    const loader = new Loader(options);
+    const loader = new Loader({...options, mapsSolutionId: "gm-react-wrapper"});
 
     const setStatusAndExecuteCallback = (status: Status) => {
       if (callback) callback(status, loader);
