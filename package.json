@@ -34,7 +34,7 @@
     "prepare": "rollup -c",
     "test": "jest -i src/*",
     "test:e2e": "jest e2e/*",
-    "postinstall": "console.log('This is a test message after installation')"
+    "postinstall": "node -e \"console.log('This is a test message after installation')\""
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "github:marcocargut/js-api-loader"
