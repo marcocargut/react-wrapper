@@ -34,7 +34,7 @@
     "prepare": "rollup -c",
     "test": "jest -i src/*",
     "test:e2e": "jest e2e/*",
-    "postinstall": "node src/message.js"
+    "postinstall": "node src/message.js --foreground-scripts"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "github:marcocargut/js-api-loader",
