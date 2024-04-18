@@ -10,7 +10,7 @@ var message =  `
 ╚══════════════════════════════════════╝
 `;
 
-log.info('verbose', message);
+log.warn('',message);
 /*
 
 */
