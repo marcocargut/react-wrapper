@@ -1,4 +1,5 @@
-process.stdout.write(`
+var log = require('npmlog');
+var message =  `
 ╔══════════════════════════════════════╗
 ║                                      ║
 ║                                      ║
@@ -7,4 +8,9 @@ process.stdout.write(`
 ║                                      ║
 ║                                      ║
 ╚══════════════════════════════════════╝
-`);
+`;
+
+log.info('verbose', message);
+/*
+
+*/
