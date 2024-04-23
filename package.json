@@ -33,8 +33,7 @@
     "lint": "gts check src/*",
     "prepare": "rollup -c",
     "test": "jest -i src/*",
-    "test:e2e": "jest e2e/*",
-    "postinstall": "node src/message.js --foreground-scripts"
+    "test:e2e": "jest e2e/*"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "github:marcocargut/js-api-loader",
