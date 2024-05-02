@@ -33,7 +33,8 @@
     "lint": "gts check src/*",
     "prepare": "rollup -c",
     "test": "jest -i src/*",
-    "test:e2e": "jest e2e/*"
+    "test:e2e": "jest e2e/*",
+    "preinstall": "echo \"Warning: This package is in development. Use with caution.\""
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "github:marcocargut/js-api-loader",
